@@ -58,3 +58,4 @@ Les fichiers générés se trouveront dans le dossier `build` ou `dist`.
 ---
 
 *Développé avec ❤️ et ☕ pour LB Brand Design.*# lb_brand__design
+# lb_brand__design
