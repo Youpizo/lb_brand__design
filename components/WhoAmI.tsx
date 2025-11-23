@@ -29,7 +29,7 @@ export const WhoAmI: React.FC = () => {
                         {/* Image Container */}
                         <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl aspect-[3/4]">
                             <img
-                                src="./assets/photovogue.png"
+                                src="./assets/lucievogue.png"
                                 alt="Lucie Boerez Portrait"
                                 className="w-full h-full object-cover scale-105 transition-transform duration-1000 group-hover:scale-100"
                             />
@@ -53,7 +53,7 @@ export const WhoAmI: React.FC = () => {
             <div className="lg:col-span-7 space-y-10">
                  <Reveal>
                     <div className="inline-flex items-center gap-2 mb-4 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-lb-blue/10">
-                        <span className="text-lg">✨</span>
+                        <span className="text-lg">🩷</span>
                         <span className="text-sm font-bold tracking-[0.2em] text-lb-grey uppercase">Qui suis-je ?</span>
                     </div>
                     <h3 className="text-4xl md:text-6xl font-black text-lb-blue leading-tight">
@@ -68,7 +68,7 @@ export const WhoAmI: React.FC = () => {
                 <div className="space-y-8 text-lg text-lb-grey/90 leading-relaxed font-medium">
                     <Reveal delay={200}>
                         <p>
-                           <span className="float-left font-script font-normal text-6xl text-lb-pink mr-3 mt-[-2px] leading-[0.7]">A</span>près cinq années à étudier la communication sous toutes ses formes, j’ai compris que ce qui me motive vraiment, c’est d’aider les autres à se révéler. À mettre des mots, des images, une structure sur ce qu’ils portent en eux mais qui est encore flou. <span className="text-lb-blue font-bold bg-lb-blue/5 px-1 rounded">J’ai toujours eu ce besoin de faire le lien entre l’idée et la forme.</span>
+                           <span className="float-left font-script font-normal text-6xl text-lb-pink mr-3 mt-[-15px] leading-[0.7]">A</span>près cinq années à étudier la communication sous toutes ses formes, j’ai compris que ce qui me motive vraiment, c’est d’aider les autres à se révéler. À mettre des mots, des images, une structure sur ce qu’ils portent en eux mais qui est encore flou. <span className="text-lb-blue font-bold bg-lb-blue/5 px-1 rounded">J’ai toujours eu ce besoin de faire le lien entre l’idée et la forme.</span>
                         </p>
                     </Reveal>
 

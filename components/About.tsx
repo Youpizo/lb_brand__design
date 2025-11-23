@@ -72,7 +72,7 @@ export const About: React.FC = () => {
                 <div className="mt-12 flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-lb-blue">
                     <img 
-                        src="./assets/mavision.png" 
+                        src="./assets/lulufondbleu.png" 
                         alt="Lucie" 
                         loading="lazy"
                         className="w-full h-full object-cover" 
