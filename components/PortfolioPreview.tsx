@@ -7,8 +7,8 @@ import { useNavigate } from 'react-router-dom';
 export const PortfolioPreview: React.FC = () => {
   const navigate = useNavigate();
   const stats = [
-    { number: '7+', label: 'Projets réalisés', icon: <Layers size={24} /> },
-    { number: '10+', label: 'Clients heureux', icon: <Users size={24} /> },
+    { number: '12+', label: 'Projets réalisés', icon: <Layers size={24} /> },
+    { number: '7+', label: 'Clients heureux', icon: <Users size={24} /> },
     { number: '5+', label: 'Années d\'expérience', icon: <Star size={24} /> },
   ];
 
@@ -35,7 +35,7 @@ export const PortfolioPreview: React.FC = () => {
             <Reveal delay={400}>
                 <p className="text-gray-400 text-lg max-w-xl">
                 Chaque projet est une nouvelle aventure où la stratégie rencontre la créativité.
-                Découvrez comment j'ai aidé ces entrepreneurs à révéler leur potentiel.
+                Découvrez comment j'ai aidé ces entrepreneur.e.s à révéler leur potentiel.
                 </p>
             </Reveal>
           </div>

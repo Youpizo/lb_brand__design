@@ -9,7 +9,7 @@ const faqData = [
       <>
         <p className="mb-4">Mes tarifs dépendent de la nature du projet et de l’ampleur de l’accompagnement.</p>
         <p className="mb-4">Chaque marque a un niveau d’exigence, d’enjeux et de besoins différent, c’est pour cela que je propose uniquement des prestations sur-mesure.</p>
-        <p className="font-medium text-lb-blue">Lors d’un appel découverte, je définis avec toi ce qui est réellement nécessaire pour ton projet, puis je te transmets un devis clair, détaillé et adapté à ton objectif.</p>
+        <p className="font-medium text-lb-blue">Lors d’un appel découverte, je définis avec vous ce qui est réellement nécessaire pour votre projet, puis je vous transmets un devis clair, détaillé et adapté à votre objectif.</p>
       </>
     )
   },
@@ -18,8 +18,8 @@ const faqData = [
     answer: (
       <>
         <p className="mb-4 font-bold">Le branding, c’est tout ce qui construit une marque cohérente, reconnaissable et mémorable :</p>
-        <p className="mb-4 italic text-gray-600 pl-4 border-l-2 border-lb-pink">sa vision, son positionnement, son storytelling, son identité visuelle et la manière dont elle se présente au monde.</p>
-        <p>C'est un ensemble réfléchi et indispensable pour permettre à ton entreprise d’être comprise, vue et désirée par les bonnes personnes.</p>
+        <p className="mb-4 italic text-gray-600 pl-4 border-l-2 border-lb-pink">Sa vision, son positionnement, son storytelling, son identité visuelle et la manière dont elle se présente au monde.</p>
+        <p>C'est un ensemble réfléchi et indispensable pour permettre à votre entreprise d’être comprise, vue et désirée par les bonnes personnes.</p>
       </>
     )
   },
@@ -31,7 +31,7 @@ const faqData = [
         <ul className="space-y-4 mb-4">
           <li className="flex items-start gap-3">
             <span className="bg-lb-blue text-white font-bold rounded-full w-6 h-6 flex items-center justify-center text-xs flex-shrink-0 mt-1">1</span>
-            <span><strong className="text-lb-blue">Explorer :</strong> on clarifie ton contexte, tes objectifs, ton marché et ta vision.</span>
+            <span><strong className="text-lb-blue">Explorer :</strong> on clarifie votre contexte, vos objectifs, votre marché et votre vision.</span>
           </li>
           <li className="flex items-start gap-3">
             <span className="bg-lb-pink text-white font-bold rounded-full w-6 h-6 flex items-center justify-center text-xs flex-shrink-0 mt-1">2</span>
@@ -42,7 +42,7 @@ const faqData = [
             <span><strong className="text-lb-yellow">Déployer :</strong> on passe à la mise en forme (identité, supports, contenus…), toujours avec un suivi régulier et un cadre clair.</span>
           </li>
         </ul>
-        <p className="font-medium">Tu sais où on va, comment, et pourquoi — du début à la fin.</p>
+        <p className="font-medium">Vous savez où on va, comment, et pourquoi — du début à la fin.</p>
       </>
     )
   },
@@ -50,8 +50,8 @@ const faqData = [
     question: "Combien de temps dure un projet 360° ?",
     answer: (
       <>
-        <p className="mb-4">En moyenne, un projet de branding complet prend entre <strong className="text-lb-pink">4 et 8 semaines</strong>, selon l’ampleur du travail et ta disponibilité pour les validations.</p>
-        <p>Un accompagnement stratégique ou opérationnel peut être plus court ou plus long. Je t’indique toujours un planning précis dès le début du projet.</p>
+        <p className="mb-4">En moyenne, un projet de branding complet prend entre <strong className="text-lb-pink">4 et 8 semaines</strong>, selon l’ampleur du travail et votre disponibilité pour les validations.</p>
+        <p>Un accompagnement stratégique ou opérationnel peut être plus court ou plus long. Je vous indique toujours un planning précis dès le début du projet.</p>
       </>
     )
   },
@@ -60,8 +60,8 @@ const faqData = [
     answer: (
       <>
         <p className="mb-4 font-bold text-lg text-lb-blue">Les deux.</p>
-        <p className="mb-4">Je suis basée à Lille, mais j’accompagne des clients partout en France, et même à l’étranger, en visio.</p>
-        <p>Mon process est pensé pour fonctionner parfaitement à distance : échanges fluides, livrables accessibles, suivi clair. Ta localisation n’est donc jamais un frein — seul ton projet compte.</p>
+        <p className="mb-4">Je suis basée à Lille, mais j’accompagne des client.e.s partout en France, et même à l’étranger, en visio.</p>
+        <p>Mon process est pensé pour fonctionner parfaitement à distance : échanges fluides, livrables accessibles, suivi clair. Votre localisation n’est donc jamais un frein — seul votre projet compte.</p>
       </>
     )
   }
@@ -102,7 +102,7 @@ export const FAQ: React.FC = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-lb-pink to-lb-yellow">questions.</span>
               </h3>
               <p className="text-lb-grey/80 text-lg mb-8">
-                Tu hésites encore ? Voici les réponses aux questions que l'on me pose le plus souvent. Pour le reste, mon inbox est ouverte.
+                Vous hésitez encore ? Voici les réponses aux questions que l'on me pose le plus souvent. Pour le reste, ma boîte mail est ouvert.
               </p>
               <a 
                 href="#contact"

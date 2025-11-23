@@ -50,20 +50,19 @@ export const About: React.FC = () => {
             <div className="space-y-6 text-lb-grey/80">
               <Reveal delay={300}>
                 <p>
-                    Après cinq années à étudier la communication, j'ai compris une chose essentielle : 
-                    ce qui me motive, c'est d'aider les autres à se révéler. À transformer une intuition floue en une identité lisible, solide et belle.
+                    Choisir de travailler avec LB Brand Design, c’est faire le choix d’une collaboration fondée sur la confiance, la proximité et l’enthousiasme. 
+                    J’aime m’impliquer pleinement dans chaque projet, avec écoute active et bienveillance.
                 </p>
               </Reveal>
               <Reveal delay={400}>
                 <p className="font-medium text-lb-blue text-xl border-l-4 border-lb-blue pl-4 italic">
-                    "Je fais le lien entre l'idée et la forme."
+                    "J'ai à coeur de vraiment comprendre votre métier et vos besoins"
                 </p>
               </Reveal>
               <Reveal delay={500}>
                 <p>
-                    Aujourd’hui, j’accompagne celles et ceux qui entreprennent avec sens et sincérité. 
-                    Je ne suis pas là pour faire "joli", je suis là pour construire de l'utile. 
-                    Pour poser les bases d’une marque claire qui donne confiance et fait grandir votre entreprise.
+                    Mes livrables sont pensé avec <span className="text-lb-pink">stratégie et exigence. </span>
+                    Je construis une marque impactante qui parle à vos client.e.s, soutient vos objectifs et respectent vos valeurs et votre savoir-faire.
                 </p>
               </Reveal>
             </div>
