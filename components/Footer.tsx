@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
               <a href="https://www.instagram.com/lb_brand.design/" aria-label="Instagram" className="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:bg-lb-pink hover:border-lb-pink hover:text-white transition-all duration-300 hover:rotate-12" target="_blank" rel="noopener noreferrer">
                 <Instagram size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/lucie-boerez1/" aria-label="LinkedIn" className="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:bg-lb-blue hover:border-lb-blue hover:text-white transition-all duration-300 hover:rotate-12" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/lb-brand-design/posts/" aria-label="LinkedIn" className="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:bg-lb-blue hover:border-lb-blue hover:text-white transition-all duration-300 hover:rotate-12" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:luboerez@hotmail.com" aria-label="Email" className="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:bg-lb-yellow hover:border-lb-yellow hover:text-lb-blue transition-all duration-300 hover:rotate-12">
