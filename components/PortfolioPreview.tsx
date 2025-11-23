@@ -8,7 +8,7 @@ export const PortfolioPreview: React.FC = () => {
   const navigate = useNavigate();
   const stats = [
     { number: '12+', label: 'Projets réalisés', icon: <Layers size={24} /> },
-    { number: '7+', label: 'Clients heureux', icon: <Users size={24} /> },
+    { number: '7+', label: 'Client.e.s heureux', icon: <Users size={24} /> },
     { number: '5+', label: 'Années d\'expérience', icon: <Star size={24} /> },
   ];
 

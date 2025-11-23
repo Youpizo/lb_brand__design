@@ -61,7 +61,7 @@ export const About: React.FC = () => {
               </Reveal>
               <Reveal delay={500}>
                 <p>
-                    Mes livrables sont pensé avec <span className="text-lb-pink">stratégie et exigence. </span>
+                    Mes livrables sont pensés avec <span className="text-lb-pink">stratégie et exigence. </span>
                     Je construis une marque impactante qui parle à vos client.e.s, soutient vos objectifs et respectent vos valeurs et votre savoir-faire.
                 </p>
               </Reveal>
