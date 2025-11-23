@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 lg:col-span-2">
             <Reveal>
                 {/* Logo insertion */}
-                <img src="./assets/whitelogo.png" alt="LB Brand Design Logo" className="h-20 w-auto mb-8 object-contain" />
+                <img src="./img/whitelogo.webp" alt="LB Brand Design Logo" className="h-20 w-auto mb-8 object-contain" />
                 
                 <h2 className="text-6xl md:text-8xl font-black mb-6 text-white tracking-tighter">
                 LET'S <span className="text-transparent bg-clip-text bg-gradient-to-r from-lb-yellow to-lb-pink">TALK</span>

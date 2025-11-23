@@ -86,7 +86,7 @@ export const Hero: React.FC = () => {
              <Reveal direction="left" delay={400}>
                 <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border-4 border-lb-blue shadow-[12px_12px_0px_0px_rgba(255,213,0,1)] bg-lb-grey transform rotate-2 hover:rotate-0 transition-all duration-700 ease-out hover:shadow-[20px_20px_0px_0px_rgba(255,0,128,1)]">
                 <img 
-                    src="./assets/photodeprofil.png" 
+                    src="./img/photodeprofil.webp" 
                     alt="Lucie Boerez Creative Portrait" 
                     width="800"
                     height="1000"

@@ -29,7 +29,7 @@ export const WhoAmI: React.FC = () => {
                         {/* Image Container */}
                         <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl aspect-[3/4]">
                             <img
-                                src="./assets/lucievogue.png"
+                                src="./img/lucievogue.webp"
                                 alt="Lucie Boerez Portrait"
                                 className="w-full h-full object-cover scale-105 transition-transform duration-1000 group-hover:scale-100"
                             />

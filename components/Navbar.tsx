@@ -80,7 +80,7 @@ export const Navbar: React.FC = () => {
           {/* Logo Area */}
           <Link to="/" className="relative z-50 group block" onClick={() => window.scrollTo(0, 0)}>
             <img 
-              src="/assets/blacklogo.png" 
+              src="/img/blacklogo.webp" 
               alt="LB Brand Design Logo" 
               width="80"
               height="80"
