@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth">
+<html lang="fr" class="scroll-smooth overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LB Brand Design | Stratégie & Branding</title>
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
     
-    <!-- Google Fonts: Plus Jakarta Sans (Satoshi alternative) and Kaushan Script (Confiteria alternative) -->
+    <!-- Google Fonts: Plus Jakarta Sans (Satoshi alternative) and Vibur (Handwritten) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Plus+Jakarta+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&family=Vibur&display=swap" rel="stylesheet">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,14 +30,16 @@
             },
             fontFamily: {
               sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-              script: ['"Kaushan Script"', 'cursive'],
+              script: ['"Vibur"', 'cursive'],
             },
             animation: {
               'spin-slow': 'spin 12s linear infinite',
-              'marquee': 'marquee 25s linear infinite',
-              'marquee-reverse': 'marqueeReverse 25s linear infinite',
+              'marquee': 'marquee 240s linear infinite',
+              'marquee-reverse': 'marqueeReverse 240s linear infinite',
               'float': 'float 6s ease-in-out infinite',
               'blob': 'blob 7s infinite',
+              'slide-right': 'slideRight 8s linear infinite',
+              'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
             },
             keyframes: {
               marquee: {
@@ -56,6 +59,16 @@
                 '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
                 '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
                 '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              slideRight: {
+                '0%': { transform: 'translateX(-100%)', opacity: '0' },
+                '10%': { opacity: '1' },
+                '90%': { opacity: '1' },
+                '100%': { transform: 'translateX(100vw)', opacity: '0' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
               }
             }
           }
@@ -76,16 +89,20 @@
   <script type="importmap">
 {
   "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?external=react",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?external=react,react-dom",
+    "@remix-run/router": "https://esm.sh/@remix-run/router@1.15.3"
   }
 }
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-lb-beige text-lb-grey antialiased selection:bg-lb-pink selection:text-white">
+  <body class="bg-lb-beige text-lb-grey antialiased selection:bg-lb-pink selection:text-white overflow-x-hidden">
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>

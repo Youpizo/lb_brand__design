@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Zap, ShieldCheck } from 'lucide-react';
+import { Reveal } from './Reveal';
 
 export const About: React.FC = () => {
   const values = [
@@ -24,64 +25,85 @@ export const About: React.FC = () => {
   ];
 
   return (
-    <section id="manifesto" className="py-24 bg-white relative overflow-hidden">
+    <section id="vision" className="py-24 bg-white relative overflow-hidden">
         {/* Decorative Grid */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+
+        {/* Beige Halo Bottom Left */}
+        <div className="absolute -bottom-24 -left-24 w-[500px] h-[500px] bg-lb-beige rounded-full blur-[100px] opacity-60 pointer-events-none"></div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           
           {/* Storytelling Side */}
           <div className="prose prose-lg">
-            <h2 className="text-sm font-bold tracking-[0.2em] text-lb-pink uppercase mb-4">Mon Manifesto</h2>
-            <h3 className="text-4xl md:text-5xl font-black text-lb-blue mb-8 leading-tight">
-              Révéler la <span className="text-lb-pink font-script text-6xl">richesse</span> <br/>
-              de votre savoir-faire.
-            </h3>
+            <Reveal>
+                <h2 className="text-sm font-bold tracking-[0.2em] text-lb-pink uppercase mb-4">MA VISION</h2>
+            </Reveal>
+            <Reveal delay={200}>
+                <h3 className="text-4xl md:text-5xl font-black text-lb-blue mb-8 leading-tight">
+                Révéler la <span className="text-lb-pink font-script text-6xl font-normal">richesse</span> <br/>
+                de votre savoir-faire.
+                </h3>
+            </Reveal>
             
             <div className="space-y-6 text-lb-grey/80">
-              <p>
-                Après cinq années à étudier la communication, j'ai compris une chose essentielle : 
-                ce qui me motive, c'est d'aider les autres à se révéler. À transformer une intuition floue en une identité lisible, solide et belle.
-              </p>
-              <p className="font-medium text-lb-blue text-xl border-l-4 border-lb-blue pl-4 italic">
-                "Je fais le lien entre l'idée et la forme."
-              </p>
-              <p>
-                Aujourd’hui, j’accompagne celles et ceux qui entreprennent avec sens et sincérité. 
-                Je ne suis pas là pour faire "joli", je suis là pour construire de l'utile. 
-                Pour poser les bases d’une marque claire qui donne confiance et fait grandir votre entreprise.
-              </p>
+              <Reveal delay={300}>
+                <p>
+                    Après cinq années à étudier la communication, j'ai compris une chose essentielle : 
+                    ce qui me motive, c'est d'aider les autres à se révéler. À transformer une intuition floue en une identité lisible, solide et belle.
+                </p>
+              </Reveal>
+              <Reveal delay={400}>
+                <p className="font-medium text-lb-blue text-xl border-l-4 border-lb-blue pl-4 italic">
+                    "Je fais le lien entre l'idée et la forme."
+                </p>
+              </Reveal>
+              <Reveal delay={500}>
+                <p>
+                    Aujourd’hui, j’accompagne celles et ceux qui entreprennent avec sens et sincérité. 
+                    Je ne suis pas là pour faire "joli", je suis là pour construire de l'utile. 
+                    Pour poser les bases d’une marque claire qui donne confiance et fait grandir votre entreprise.
+                </p>
+              </Reveal>
             </div>
 
-            <div className="mt-12 flex items-center gap-4">
-               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-lb-blue">
-                 <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Lucie" className="w-full h-full object-cover" />
-               </div>
-               <div>
-                 <p className="font-bold text-lb-blue">Lucie Boerez</p>
-                 <p className="text-sm text-lb-grey">Fondatrice de LB Brand Design</p>
-               </div>
-            </div>
+            <Reveal delay={600}>
+                <div className="mt-12 flex items-center gap-4">
+                <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-lb-blue">
+                    <img 
+                        src="./assets/mavision.png" 
+                        alt="Lucie" 
+                        loading="lazy"
+                        className="w-full h-full object-cover" 
+                    />
+                </div>
+                <div>
+                    <p className="font-bold text-lb-blue">Lucie Boerez</p>
+                    <p className="text-sm text-lb-grey">Fondatrice de LB Brand Design</p>
+                </div>
+                </div>
+            </Reveal>
           </div>
 
           {/* Values Cards */}
-          <div className="flex flex-col gap-6 pt-12 md:pt-0">
+          <div id="approach" className="flex flex-col gap-6 pt-12 md:pt-0 scroll-mt-32">
             {values.map((val, idx) => (
-              <div 
-                key={idx}
-                className={`bg-lb-beige p-8 rounded-2xl border-l-8 ${val.color} hover:-translate-y-2 transition-transform duration-300 shadow-sm hover:shadow-lg`}
-              >
-                <div className="flex items-center gap-4 mb-3">
-                  <div className="bg-white p-3 rounded-full shadow-sm">
-                    {val.icon}
-                  </div>
-                  <h4 className="text-2xl font-bold text-lb-grey">{val.title}</h4>
+              <Reveal key={idx} direction="right" delay={idx * 200} width="100%">
+                <div 
+                    className={`bg-lb-beige p-8 rounded-2xl border-l-8 ${val.color} hover:-translate-y-2 transition-transform duration-300 shadow-sm hover:shadow-lg`}
+                >
+                    <div className="flex items-center gap-4 mb-3">
+                    <div className="bg-white p-3 rounded-full shadow-sm">
+                        {val.icon}
+                    </div>
+                    <h4 className="text-2xl font-bold text-lb-grey">{val.title}</h4>
+                    </div>
+                    <p className="text-lb-grey/80 leading-relaxed">
+                    {val.description}
+                    </p>
                 </div>
-                <p className="text-lb-grey/80 leading-relaxed">
-                  {val.description}
-                </p>
-              </div>
+              </Reveal>
             ))}
           </div>
 

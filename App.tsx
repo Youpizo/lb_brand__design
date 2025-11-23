@@ -1,46 +1,34 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { Marquee } from './components/Marquee';
-import { About } from './components/About';
-import { Services } from './components/Services';
-import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
+import { Home } from './pages/Home';
+import { Portfolio } from './pages/Portfolio';
+import { ProjectDetail } from './pages/ProjectDetail';
+import { MentionsLegales } from './pages/MentionsLegales';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { CookieConsent } from './components/CookieConsent';
 
 function App() {
   return (
-    <div className="font-sans text-lb-grey bg-lb-beige min-h-screen">
-      <Navbar />
-      
-      <main>
-        <Hero />
+    <Router>
+      <div className="font-sans text-lb-grey bg-lb-beige min-h-screen overflow-x-hidden flex flex-col">
+        <Navbar />
         
-        {/* Animated Marquee Separator */}
-        <div className="bg-lb-blue rotate-1 scale-105 border-y-4 border-lb-yellow shadow-xl z-20 relative">
-          <Marquee 
-            items={["Stratégie", "Branding", "Design", "Communication", "Identité Visuelle", "Print", "Web"]} 
-            variant="outline" 
-            className="py-6 text-white"
-          />
-        </div>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio/:slug" element={<ProjectDetail />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
+            <Route path="/politique-confidentialite" element={<PrivacyPolicy />} />
+          </Routes>
+        </main>
 
-        <About />
-        
-        <Services />
-        
-        <div className="bg-white py-10 overflow-hidden">
-           <Marquee 
-            items={["FAIRE BRILLER VOTRE SAVOIR-FAIRE", "RÉVÉLER VOTRE POTENTIEL", "SUBLIMER VOTRE IMAGE"]} 
-            direction="right"
-            className="py-2"
-          />
-        </div>
-
-        <ContactForm />
-      </main>
-
-      <Footer />
-    </div>
+        <Footer />
+        <CookieConsent />
+      </div>
+    </Router>
   );
 }
 
