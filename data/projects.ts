@@ -9,11 +9,14 @@ export const projects: Project[] = [
     year: '2023',
     description: "Refonte complète de l'identité visuelle pour ce groupe leader dans la construction. L'objectif était de moderniser l'image tout en conservant les codes de solidité et de fiabilité du secteur.",
     services: ['Identité Visuelle', 'Charte Graphique', 'Support Print', 'Signalétique'],
-    mainImage: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop',
+    mainImage: './assets/groupebeaudeux/mockup1.png',
     gallery: [
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
+      '/assets/groupebeaudeux/mockup2.png',
+      '/assets/groupebeaudeux/2.png',
+      '/assets/groupebeaudeux/wahousalon.png',
+      '/assets/groupebeaudeux/salonvrai.png',
+      '/assets/groupebeaudeux/mockup3.png',
+      '/assets/groupebeaudeux/mockup4.png'
     ],
     theme: { text: '#0B1DBB', background: '#FFF3E0' }
   },
@@ -41,11 +44,13 @@ export const projects: Project[] = [
     year: '2023',
     description: "Branding doux et poétique pour cette marque de décoration et d'accessoires. Une identité qui respire la légèreté et l'authenticité.",
     services: ['Logo', 'Packaging', 'Webdesign', 'Shooting Photo'],
-    mainImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop',
+    mainImage: './assets/plume/19.png',
     gallery: [
-      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1532323544230-ac8d43e29e3d?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=2070&auto=format&fit=crop'
+      '/assets/plume/18.png',
+      '/assets/plume/11.png',
+      '/assets/plume/8.png',
+      '/assets/plume/9.png',
+      '/assets/plume/15.png'
     ],
     theme: { text: '#FF0080', background: '#FFFBF5' }
   },
@@ -57,11 +62,14 @@ export const projects: Project[] = [
     year: '2022',
     description: "Identité brute et authentique pour un atelier de restauration de meubles anciens. Valorisation de la matière, du geste et de l'histoire des objets.",
     services: ['Identité Visuelle', 'Site Vitrine', 'Carte de Visite', 'Flyers'],
-    mainImage: 'https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?q=80&w=2070&auto=format&fit=crop',
+    mainImage: '/assets/cygne/stand.png',
     gallery: [
-      'https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2070&auto=format&fit=crop'
+      '/assets/cygne/planss.png',
+      '/assets/cygne/fond.png',
+      '/assets/cygne/couleurs.png',
+      '/assets/cygne/cartes.png',
+      '/assets/cygne/logo.png',
+      '/assets/cygne/plan.png'
     ],
     theme: { text: '#FFD500', background: '#262626' }
   },
@@ -73,11 +81,14 @@ export const projects: Project[] = [
     year: '2023',
     description: "Une image dynamique et humaine pour une coach en transition professionnelle. Le branding mêle professionnalisme et proximité pour inspirer confiance.",
     services: ['Personal Branding', 'Site Web', 'Supports Formation', 'Linkedin'],
-    mainImage: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop',
+    mainImage: './assets/kyria/kyria1.png',
     gallery: [
-      'https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop'
+      '/assets/kyria/style.png',
+      '/assets/kyria/1.png',
+      '/assets/kyria/3.png',
+      '/assets/kyria/cards.png',
+      '/assets/kyria/5.png',
+      '/assets/kyria/font.png'
     ],
     theme: { text: '#0B1DBB', background: '#FFFFFF' }
   },
@@ -89,11 +100,13 @@ export const projects: Project[] = [
     year: '2024',
     description: "Refonte de marque pour un spécialiste de la sellerie automobile. Un univers visuel technique, précis et haut de gamme inspiré des circuits automobiles.",
     services: ['Rebranding', 'Covering', 'Brochure', 'Vêtements'],
-    mainImage: 'https://images.unsplash.com/photo-1503376763036-066120622c74?q=80&w=2070&auto=format&fit=crop',
+    mainImage: '/assets/broderie/1.png',
     gallery: [
-      'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1560253023-3ec5d502959f?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1489641493513-ba6c9577461e?q=80&w=2070&auto=format&fit=crop'
+      '/assets/broderie/2.png',
+      '/assets/broderie/3.png',
+      '/assets/broderie/4.png',
+      '/assets/broderie/5.png',
+      '/assets/broderie/6.png'
     ],
     theme: { text: '#FFFFFF', background: '#111111' }
   }
