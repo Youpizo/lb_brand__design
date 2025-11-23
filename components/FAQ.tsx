@@ -102,7 +102,7 @@ export const FAQ: React.FC = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-lb-pink to-lb-yellow">questions.</span>
               </h3>
               <p className="text-lb-grey/80 text-lg mb-8">
-                Vous hésitez encore ? Voici les réponses aux questions que l'on me pose le plus souvent. Pour le reste, ma boîte mail est ouvert.
+                Vous hésitez encore ? Voici les réponses aux questions que l'on me pose le plus souvent. Pour le reste, ma boîte mail est ouverte.
               </p>
               <a 
                 href="#contact"
